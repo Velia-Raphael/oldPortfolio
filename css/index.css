@@ -167,6 +167,13 @@
             align-items: center;
             flex-direction: column;
         }
+        .myCards {
+            display: inline-block;
+            margin-left: 3%;
+        }
+        body {
+            width: 100%;
+        }
     }
     /********Card********/
     
@@ -180,10 +187,7 @@
     }
     
     .myCards {
-        padding-right: 6%;
-        align-items: center;
         display: inline-block;
-        margin-right: 2px;
     }
     
     .container .card {
