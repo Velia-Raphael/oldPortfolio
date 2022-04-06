@@ -153,8 +153,6 @@
     }
     
     #allCard {
-        border-style: dashed;
-        border-color: aqua;
         display: flex;
         justify-content: center;
         justify-content: space-between;
