@@ -302,7 +302,7 @@
     @media screen and (max-width: 500px) {
         #Presentation {
             flex-direction: column;
-            margin-left: 20%;
+            margin-left: 18%;
         }
         #Presentation img {
             width: 250px;
