@@ -180,7 +180,6 @@
     }
     
     .myCards {
-        display: inline-block center;
         padding-right: 6%;
         align-items: center;
         display: inline-block;
