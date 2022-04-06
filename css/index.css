@@ -318,5 +318,6 @@
             flex-direction: column;
             border-style: dashed;
             border-color: red;
+            margin-left: 4%;
         }
     }
