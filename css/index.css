@@ -79,7 +79,7 @@
     /*Milieu*/
     
     #Presentation {
-        margin-left: 6%;
+        margin-right: 16%;
         margin-top: 6%;
         display: flex;
         text-align: center;
@@ -302,7 +302,7 @@
     @media screen and (max-width: 500px) {
         #Presentation {
             flex-direction: column;
-            margin-left: 0%;
+            margin-left: 20%;
         }
         #Presentation img {
             width: 250px;
