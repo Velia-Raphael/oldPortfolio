@@ -168,8 +168,9 @@
             flex-direction: column;
         }
         .myCards {
-            display: inline-block;
-            margin-left: 3%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         body {
             width: 100%;
