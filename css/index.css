@@ -37,8 +37,14 @@
     
     header {
         display: flex;
-        justify-content: space-evenly;
         align-items: center;
+        justify-content: space-around;
+    }
+    
+    #top {
+        display: flex;
+        align-items: center;
+        width: 50%;
     }
     
     #logo img {
@@ -48,6 +54,7 @@
     }
     
     #Title {
+        margin-left: 50%;
         font-family: 'Merriweather Sans', sans-serif;
         color: #e0dcce;
         cursor: default;
@@ -308,9 +315,22 @@
         }
         header {
             flex-direction: column;
+            height: 230px;
         }
         #allCard {
             flex-direction: column;
             margin-left: 7%;
+        }
+        #Title {
+            margin-left: 5%;
+            margin-top: 0%;
+            margin-bottom: 15px;
+        }
+        #Projets {
+            margin: 0%;
+            padding: 1rem 4rem;
+        }
+        #top {
+            margin-right: 20%;
         }
     }
