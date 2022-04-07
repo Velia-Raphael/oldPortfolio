@@ -319,7 +319,7 @@
         }
         #allCard {
             flex-direction: column;
-            margin-left: 7%;
+            justify-content: center;
         }
         #Title {
             margin-left: 5%;
