@@ -167,6 +167,13 @@
         padding: 5rem 2rem;
     }
     
+    #allCard2 {
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        padding: 5rem 2rem;
+    }
+    
     .myCards {
         display: inline-block;
         width: 17%;
@@ -216,7 +223,7 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 270px;
+        width: 240px;
     }
     
     .container .card .contentBx {
@@ -242,11 +249,19 @@
     }
     
     h2 {
-        font-size: 4rem;
+        font-size: 3.7rem;
     }
     
     #VM {
         font-size: 3.78rem;
+    }
+    
+    #kept-pet {
+        margin: 2%;
+    }
+    
+    #enterprise {
+        margin: 3px;
     }
     
     .container .card .contentBx .size,
