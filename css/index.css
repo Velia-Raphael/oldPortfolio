@@ -8,7 +8,7 @@
     body {
         margin: 0;
         padding: 0;
-        background: linear-gradient(rgb(0, 0, 0, 0.2), transparent), url('../src/img/MonPortfolio2.png');
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('../src/img/MonPortfolio2.png');
         background-position: center;
         background-size: 100%;
     }
@@ -79,13 +79,12 @@
     /*Milieu*/
     
     #Presentation {
-        margin-right: 16%;
-        margin-top: 6%;
         display: flex;
         text-align: center;
         align-items: center;
         padding: 7rem;
         justify-content: space-around;
+        height: 85vh;
     }
     
     #Presentation img {
@@ -99,7 +98,7 @@
     }
     
     .milieu {
-        min-height: 80vh;
+        min-height: 50vh;
         color: black;
         display: flex;
         flex-direction: column;
@@ -163,7 +162,7 @@
         display: flex;
         justify-content: center;
         justify-content: space-between;
-        padding: 2rem;
+        padding: 5rem 2rem;
     }
     
     .myCards {
@@ -301,7 +300,6 @@
     @media screen and (max-width: 500px) {
         #Presentation {
             flex-direction: column;
-            margin-left: 18%;
         }
         #Presentation img {
             width: 250px;
@@ -310,7 +308,7 @@
             width: 80vw;
         }
         .milieu {
-            min-height: 65vh;
+            min-height: 55vh;
         }
         header {
             flex-direction: column;
@@ -319,6 +317,7 @@
         #allCard {
             flex-direction: column;
             justify-content: center;
+            padding: 0.2rem 2rem;
         }
         #Title {
             margin-left: 5%;
