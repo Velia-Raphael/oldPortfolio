@@ -168,16 +168,15 @@
     
     .myCards {
         display: inline-block;
+        width: 17%;
     }
     
     .container .card {
         position: relative;
-        width: 320px;
         height: 450px;
         background: #232323;
         border-radius: 20px;
         overflow: hidden;
-        padding-right: 80px;
     }
     
     .container .card:before {
@@ -332,5 +331,15 @@
         }
         #top {
             margin-right: 20%;
+        }
+        .container .card {
+            position: relative;
+            height: 450px;
+            background: #232323;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+        .myCards {
+            width: 100%;
         }
     }
