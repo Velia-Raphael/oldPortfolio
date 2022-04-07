@@ -303,6 +303,7 @@
         }
         #Presentation img {
             width: 250px;
+            margin-top: 2rem;
         }
         h3 {
             width: 80vw;
@@ -337,6 +338,7 @@
             background: #232323;
             border-radius: 20px;
             overflow: hidden;
+            margin: 3rem 0;
         }
         .myCards {
             width: 100%;
