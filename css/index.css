@@ -264,6 +264,18 @@
         margin: 3px;
     }
     
+    #JPO {
+        margin: 2%;
+    }
+    
+    #maquette {
+        margin: 2%;
+    }
+    
+    #VMBilan {
+        margin: 2%;
+    }
+    
     .container .card .contentBx .size,
     .container .card .contentBx .color {
         display: flex;
