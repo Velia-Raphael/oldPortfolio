@@ -67,11 +67,11 @@
         color: #090809;
     }
     
-    #Projets:hover {
+    .butoon:hover {
         background-color: #bbb6a9;
     }
     
-    #Projets {
+    .butoon {
         font-family: 'Noto Serif Tibetan', serif;
         background-color: #e0dcce;
         border-radius: 3rem;
@@ -359,9 +359,13 @@
             margin-top: 0%;
             margin-bottom: 15px;
         }
-        #Projets {
-            margin: 0%;
-            padding: 1rem 4rem;
+        nav {
+            display: flex;
+            flex-direction: column;
+        }
+        .butoon {
+            margin: 1rem;
+            padding: 1rem 2rem;
         }
         #top {
             margin-right: 20%;
