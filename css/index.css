@@ -31,14 +31,11 @@
     }
     /*Partie haute de la page*/
     
-    #Start {
-        background-color: black;
-    }
-    
     header {
         display: flex;
         align-items: center;
         justify-content: space-around;
+        background-color: black;
     }
     
     #top {
