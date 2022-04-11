@@ -344,7 +344,7 @@
         #allCard {
             flex-direction: column;
             justify-content: center;
-            padding: 0.2rem 2rem;
+            padding: 0.2rem 4rem;
         }
         #allCard2 {
             flex-direction: column;
