@@ -160,16 +160,22 @@
     #allCard {
         display: flex;
         justify-content: center;
-        justify-content: space-between;
+        justify-content: space-around;
         padding: 5rem 2rem;
     }
     
     #allCard2 {
         display: flex;
         justify-content: center;
-        justify-content: space-between;
+        justify-content: space-around;
         padding: 5rem 2rem;
     }
+    /**#allCard2 .myCards {
+        margin: 3.5rem;
+    }**/
+    /**.soon {
+        visibility: hidden;
+    }**/
     
     .myCards {
         display: inline-block;
