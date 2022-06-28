@@ -140,6 +140,24 @@
         justify-content: center;
     }
     
+    #Infos2 {
+        display: flex;
+        text-decoration: none;
+        color: black;
+        justify-content: center;
+    }
+    
+    #lelienlink {
+        color: #F7F7F2;
+        margin: 1rem;
+        font-size: medium;
+    }
+    
+    #lelienlink:hover {
+        color: white;
+        text-decoration: underline;
+    }
+    
     #Contact {
         color: #F7F7F2;
         margin: 1rem;
