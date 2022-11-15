@@ -348,7 +348,7 @@
     }
     /*Partie responsive*/
     
-    @media screen and (max-width: 850px) {
+    @media screen and (max-width: 1200px) {
         #Presentation {
             flex-direction: column;
         }
