@@ -421,7 +421,7 @@
         }
         header {
             flex-direction: column;
-            height: 280px;
+            height: 30rem;
         }
         #allCard {
             flex-direction: column;
