@@ -346,7 +346,7 @@
         transform: translateY(0px);
         transition-delay: 0.75s;
     }
-    /*Partie responsive Desktop*/
+    /*Partie responsive*/
     
     @media screen and (max-width: 1500px) {
         header {
@@ -407,6 +407,7 @@
     @media screen and (max-width: 850px) {
         #Presentation {
             flex-direction: column;
+            justify-content: space-around;
         }
         #Presentation img {
             width: 250px;
@@ -440,7 +441,7 @@
         nav {
             display: flex;
             flex-direction: column;
-            width: 50%;
+            width: 52%;
         }
         .butoon {
             margin: 1rem;
