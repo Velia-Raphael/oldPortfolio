@@ -402,9 +402,71 @@
             width: 100%;
         }
     }
-    /*Partie responsive verticale*/
+    /*Horizontale*/
     
     @media screen and (max-width: 850px) {
+        #Presentation {
+            flex-direction: column;
+            justify-content: space-around;
+            margin-top: 18%;
+        }
+        #Presentation img {
+            width: 250px;
+            margin-top: 2rem;
+        }
+        h3 {
+            width: 80vw;
+        }
+        .milieu {
+            min-height: 55vh;
+        }
+        header {
+            flex-direction: column;
+            height: 16rem;
+        }
+        #allCard {
+            flex-direction: column;
+            justify-content: center;
+            padding: 0.2rem 13rem;
+            margin-top: 30%;
+        }
+        #allCard2 {
+            flex-direction: column;
+            justify-content: center;
+            padding: 0.2rem 13rem;
+        }
+        #Title {
+            margin-left: 5%;
+            margin-top: 0%;
+            margin-bottom: 15px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+        }
+        .butoon {
+            margin: 1rem;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+        #top {
+            margin-top: auto;
+        }
+        .container .card {
+            position: relative;
+            height: 450px;
+            background: #111;
+            border-radius: 20px;
+            overflow: hidden;
+            margin: 3rem 0;
+        }
+        .myCards {
+            width: 100%;
+        }
+    }
+    /*Partie responsive verticale*/
+    
+    @media screen and (max-width: 500px) {
         #Presentation {
             flex-direction: column;
             justify-content: space-around;
